@@ -43,10 +43,11 @@ int main()
     int E = 0;
     int F = 0;
 
-    //int X = Formula(A, B, C, D, E, F);
+    Nest(); //<--- Launches everything
 
-    //OR if you want to iterate through all the combinations automatically, uncomment the following line:
-             Nest();
+    //uncomment the next 2 lines to get specific results
+    //int X = Formula(A, B, C, D, E, F);
+       
     //std::cout << X;
 
 }
